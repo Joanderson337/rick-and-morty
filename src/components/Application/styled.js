@@ -29,6 +29,29 @@ export const ContentCharacters = styled.div`
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.6rem;
   }
+
+  @media (max-width: 1100px) {
+    & > div {
+    grid-template-columns: repeat(3, 1fr);
+ 
+  }
+}
+
+@media (max-width: 850px) {
+    & > div {
+    grid-template-columns: repeat(2, 1fr);
+ 
+  }
+}
+
+
+@media (max-width: 550px) {
+    & > div {
+    grid-template-columns: repeat(1, 1fr);
+ 
+  }
+}
+
   button {
     display: block;
     line-height: 6.5rem;

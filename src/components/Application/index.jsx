@@ -48,13 +48,13 @@ export function Application() {
         <ContentCharacters>
           <div>
             {
-              characters && characters.map(({image, name, species, genre}) => {
+              characters && characters.map(({image, name, species, gender}) => {
                 return (
                   <CardCharacters
                     image={image}
                     name={name}
-                    genre={species}
-                    specie={genre}
+                    genre={gender}
+                    specie={species}
                   />
                 )
               }) 
