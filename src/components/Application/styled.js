@@ -47,7 +47,9 @@ export const ContentCharacters = styled.div`
 
 @media (max-width: 550px) {
     & > div {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  
   }
 }

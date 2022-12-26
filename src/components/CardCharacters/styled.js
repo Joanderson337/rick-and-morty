@@ -5,6 +5,9 @@ export const ContainerCard = styled.div`
   background-color: #151020;
   border-radius: 4px;
   padding: 2rem;
+  @media (max-width: 600px) {
+        width: 344px;
+    }
   .image {
     width: 100%;
     overflow: hidden;
@@ -13,6 +16,7 @@ export const ContainerCard = styled.div`
       width: 100%;
       height: 100%;
       object-fit: cover;
+      
     }
   }
   .info {
